@@ -553,6 +553,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-social-title {
@@ -723,9 +724,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-mailing {
+/* .footer-mailing {
   padding-left: 94px;
-}
+} */
 
 .btn-mailing {
   cursor: pointer;
@@ -1011,7 +1012,7 @@ transition: transform 250ms; */
 }
 
 .modal-field {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .modal-field-checkbox {
